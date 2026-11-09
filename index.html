@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    
+     <!--=============== CSS ===============-->
+     <link rel="stylesheet" href="css/style.css">
+
+    <title>Responsive Oraimo | Headphones Website</title>
+</head>
+<body>
+     <!--==================== HEADER/NAV ====================-->
+     <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+           <img src="images/nav logo.svg" alt="image"> <span></span> 
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+           <li>
+              <a href="#home" class="nav__link active-link">Home</a>
+           </li>
+
+           <li>
+              <a href="#headphones" class="nav__link">Headphones</a>
+           </li>
+
+           <li>
+              <a href="#earbuds" class="nav__link">Earbuds</a>
+           </li>
+
+           <li>
+             <a href="#accessories" class="nav__link">Accessories</a>
+           </li>
+
+           <li>
+             <a href="#support" class="nav__link">Support</a>
+           </li>
+          </ul>
+
+           <!-- Theme button -->
+           <i class="ri-moon-fill nav__theme" id="theme-button"></i>
+        </div>
+
+          <!-- Toggle button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-5-fill"></i>
+          </div>
+
+          <!-- Icons: always visible -->
+           <div class="nav__actions">
+            <button aria-label="Search"><i class="ri-search-line"></i></button>
+            <button class="nav__user" aria-label="Account"><i class="ri-user-line"></i></button>
+            <button class="cart" aria-label="Cart">
+              <i class="ri-shopping-cart-line"></i><span class="badge js-count">0</span>
+            </button>
+          </div>
+      </nav>
+     </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+
+    <!--==================== HERO SLIDER ====================-->
+    <section class="hero" id="home">
+      <img src="images/hero-1.jpg" alt="Man enjoying music with Oraimo headphones" class="hero__img">
+    
+      <div class="hero__container container grid">
+        <div class="hero__data">
+          <h4 class="hero__subtitle">ORAIMO HEADPHONES</h4>
+    
+          <h1 class="hero__title">
+            Immersive Sound. <span>All Day Comfort.</span>
+          </h1>
+    
+          <p class="hero__description">
+            Experience crystal-clear audio, powerful bass and
+            all-day comfort with Oraimo headphones.
+          </p>
+    
+          <a href="#products" class="button">
+            Shop Now <i class="ri-arrow-right-line"></i>
+          </a>
+    
+          <div class="hero__benefits">
+            <a href="#" class="hero__link">
+              <i class="ri-voiceprint-line"></i><span>Hi-Res Audio</span>
+            </a>
+
+            <a href="#" class="hero__link">
+              <i class="ri-battery-charge-line"></i><span>Long Battery Life</span>
+            </a>
+
+            <a href="#" class="hero__link">
+              <i class="ri-headphone-line"></i><span>Comfort Fit</span>
+            </a>
+
+            <a href="#" class="hero__link">
+              <i class="ri-shield-check-line"></i><span>Reliable Quality</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <p class="hero__comment">Music<br>Moves<br>You</p>
+    </section>
+
+     <!--==================== SHOP BY CATEGORY ====================-->
+     <section class="category">
+      <h4 class="section__subtitle">SHOP BY CATEGORY</h4>
+      <h2 class="section__title">Find Your Perfect Fit</h2>
+
+      <div class="category__container container grid">
+        <div class="category__card">
+          <img src="images/category-1.jpg" alt="image" class="category__image">
+
+          <h3 class="category__title">
+            Oraimo BoomPop N <i class="ri-arrow-right-long-line"></i>
+          </h3>
+        </div>
+
+        <div class="category__card">
+          <img src="images/category-2.webp" alt="image" class="category__image">
+
+          <h3 class="category__title">
+            Oraimo OHP-917 <i class="ri-arrow-right-long-line"></i>
+          </h3>
+        </div>
+
+        <div class="category__card">
+          <img src="images/category-3.webp" alt="image" class="category__image">
+
+          <h3 class="category__title">
+            Oraimo SpaceBuds <i class="ri-arrow-right-long-line"></i>
+          </h3>
+        </div>
+
+        <div class="category__card">
+          <img src="images/category-4.jpg" alt="image" class="category__image">
+
+          <h3 class="category__title">
+            Oraimo Necklace Neo <i class="ri-arrow-right-long-line"></i>
+          </h3>
+        </div>
+
+        <div class="category__card">
+          <img src="images/category-5.webp" alt="image" class="category__image">
+
+          <h3 class="category__title">
+            Oraimo OpenSnap Air <i class="ri-arrow-right-long-line"></i>
+          </h3>
+        </div>
+
+        <div class="category__card">
+          <img src="images/category-6.webp" alt="image" class="category__image">
+
+          <h3 class="category__title">
+            Oraimo BoomPop Air Lightweight <i class="ri-arrow-right-long-line"></i>
+          </h3>
+        </div>
+      </div>
+
+     </section>
+
+    <!--==================== BEST SELLERS ====================-->
+    <section class="products">
+      <h4 class="section__subtitle">FEATURED</h4>
+      <h2 class="section__title">Best Sellers</h2>
+
+      <div class="products__container container grid">
+        <article class="products__card">
+          <img src="images/products-1.jpg" alt="image" class="products__img">
+
+          <div>
+            <h3 class="products__name"> Oraimo OHP-917 </h3>
+
+            <p class="products__type">Wireless Over-Ear Headphonees </p>
+
+            <div class="products__rating">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-fill"></i><span>(324)</span>
+            </div>
+
+            <h3 class="products__price">₦65,000</h3>
+            <button class="products__button">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="products__card">
+          <img src="images/products-2.webp" alt="image" class="products__img">
+
+          <div>
+            <h3 class="products__name"> Oraimo OHP-917 </h3>
+
+            <p class="products__type">Wireless Over-Ear Headphonees </p>
+
+            <div class="products__rating">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-fill"></i><span>(324)</span>
+            </div>
+
+            <h3 class="products__price">₦45,000</h3>
+            <button class="products__button">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="products__card">
+          <img src="images/products-3.webp" alt="image" class="products__img">
+
+          <div>
+            <h3 class="products__name"> Oraimo OHP-917 </h3>
+
+            <p class="products__type">Wireless Over-Ear Headphonees </p>
+
+            <div class="products__rating">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-fill"></i><span>(324)</span>
+            </div>
+
+            <h3 class="products__price">₦28,000</h3>
+            <button class="products__button">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="products__card">
+          <img src="images/products-4.webp" alt="image" class="products__img">
+
+          <div>
+            <h3 class="products__name"> Oraimo OHP-917 </h3>
+
+            <p class="products__type">Wireless Over-Ear Headphonees </p>
+
+            <div class="products__rating">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-fill"></i><span>(324)</span>
+            </div>
+
+            <h3 class="products__price">₦25,000</h3>
+            <button class="products__button">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="products__card">
+          <img src="images/products-5.webp" alt="image" class="products__img">
+
+          <div>
+            <h3 class="products__name"> Oraimo OHP-917 </h3>
+
+            <p class="products__type">Wireless Over-Ear Headphonees </p>
+
+            <div class="products__rating">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-fill"></i><span>(324)</span>
+            </div>
+
+            <h3 class="products__price">₦45,000</h3>
+            <button class="products__button">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="products__card">
+          <img src="images/products-6.jpg" alt="image" class="products__img">
+
+          <div>
+            <h3 class="products__name"> Oraimo OHP-917 </h3>
+
+            <p class="products__type">Wireless Over-Ear Headphonees </p>
+
+            <div class="products__rating">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-fill"></i><span>(324)</span>
+            </div>
+
+            <h3 class="products__price">₦37,000</h3>
+            <button class="products__button">Add to Cart</button>
+          </div>
+        </article>
+      </div>
+
+    </section>
+
+    <!--==================== TRUST STRIP ====================-->
+    <section class="trust">
+      <div class="trust__container container">
+        <div class="trust__item"><i class="ri-truck-line"></i><div>
+          <h4>Fast &amp; Reliable Delivery</h4> 
+          <p>Across Nigeria</p>
+        </div></div>
+
+        <div class="trust__item"><i class="ri-shield-check-line"></i>
+          <div>
+            <h4>Genuine Products</h4>
+            <p>100% Oraimo Original</p>
+          </div></div>
+
+        <div class="trust__item"><i class="ri-customer-service-2-line"></i>
+          <div>
+            <h4>Dedicated Support</h4>
+            <p>We're here to help</p>
+          </div>
+        </div>
+      </div>
+    </section>
+      </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__brand">
+          <a href="#home" class="logo">oraimo<small>smart accessories</small></a></div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li>
+            <a href="#home">Home</a>
+           </li>
+  
+            <li>
+              <a href="#categories">Headphones</a>
+            </li>
+
+            <li>
+              <a href="#best-sellers">Earbuds</a>
+            </li>
+  
+            <li>
+              <a href="#categories">Accessories</a>
+            </li>
+  
+            <li>
+              <a href="#footer">Support</a>
+            </li>
+          </ul>
+        </div>
+  
+        <div>
+          <h4>Customer Care</h4>
+          <ul>
+            <li>
+              <a href="#">FAQs</a>
+          </li>
+  
+          <li>
+            <a href="#">Warranty</a>
+          </li>
+  
+          <li>
+            <a href="#">Shipping Policy</a>
+          </li>
+  
+          <li>
+            <a href="#">Return Policy</a>
+          </li>
+  
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+  
+        <div class="footer__news">
+          <h4>Stay Connected</h4>
+          <div class="footer__social">
+            <a href="#" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+            <a href="#" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+            <a href="#" aria-label="X"><i class="ri-twitter-x-line"></i></a>
+            <a href="#" aria-label="YouTube"><i class="ri-youtube-fill"></i></a>
+            <a href="#" aria-label="TikTok"><i class="ri-tiktok-fill"></i></a>
+          </div>
+          <p>Sign up for the latest updates</p>
+          <form class="footer__form" id="news-form">
+            <input type="email" id="news-email" placeholder="Enter your email address" required aria-label="Email address" />
+            <button type="submit">Subscribe</button>
+          </form>
+          <p class="footer__msg" id="news-msg" role="status"></p>
+        </div>
+        <div class="footer__tag"><p>Better Sound.<br /><span>Brighter Life.</span></p></div>
+      </div>
+      <div class="footer__bottom container">
+        <p>&copy; 2025 Oraimo. All rights reserved.</p>
+        <div class="pay"><i class="ri-visa-line"></i><i class="ri-mastercard-line"></i><span>Verve</span><i class="ri-bank-card-line"></i></div>
+      </div>
+    </footer>
+
+
+     <!--=============== SCROLLREVEAL ===============-->
+     <script src="js/scrollreveal.min.js"></script> 
+
+     <!--=============== SWIPER-BUNDLE ===============-->
+     <script src="js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+       <script src="js/main.js"></script> 
+
+  
+</body>
+</html>
